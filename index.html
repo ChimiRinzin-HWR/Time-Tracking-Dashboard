@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: orange;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="first">
+        <div class="pfppic">
+          <img class="pfp" src="./pfpr2.jpg" alt="My Profile Picture" />
+          <div class="profile">
+            <p>Report for</p>
+            <h1>Chimi Rinzin</h1>
+          </div>
+        </div>
+        <div class="type">
+          <p class="types day">Daily</p>
+          <p class="types week">Weekly</p>
+          <p class="types month">Monthly</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="griditem work">
+          <div class="imgdiv workdiv">
+            <img class="img" src="./images/icon-work.svg" alt="Illustration" />
+          </div>
+          <div class="section">
+            <div class="sectiontop">
+              <strong>Work</strong>
+              <img src="./images/icon-ellipsis.svg" alt="navigation" />
+            </div>
+            <div class="lower">
+              <h1><span class="workh">36</span>hrs</h1>
+              <p>
+                Last <span class="format">Week</span> -
+                <span class="workp">36</span>hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="griditem play">
+          <div class="imgdiv playdiv">
+            <img class="img" src="./images/icon-play.svg" alt="Illustration" />
+          </div>
+          <div class="section">
+            <div class="sectiontop">
+              <strong>Play</strong>
+              <img src="./images/icon-ellipsis.svg" alt="navigation" />
+            </div>
+            <div class="lower">
+              <h1><span class="playh">36</span>hrs</h1>
+              <p>
+                Last <span class="format">Week</span> -
+                <span class="playp">36</span>hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="griditem study">
+          <div class="imgdiv studydiv">
+            <img class="img" src="./images/icon-study.svg" alt="Illustration" />
+          </div>
+          <div class="section">
+            <div class="sectiontop">
+              <strong>Study</strong>
+              <img src="./images/icon-ellipsis.svg" alt="navigation" />
+            </div>
+            <div class="lower">
+              <h1><span class="studyh">36</span>hrs</h1>
+              <p>
+                Last <span class="format">Week</span> -
+                <span class="studyp">36</span>hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="griditem exercise">
+          <div class="imgdiv exercisediv">
+            <img
+              class="img"
+              src="./images/icon-exercise.svg"
+              alt="Illustration"
+            />
+          </div>
+          <div class="section">
+            <div class="sectiontop">
+              <strong>Exercise</strong>
+              <img src="./images/icon-ellipsis.svg" alt="navigation" />
+            </div>
+            <div class="lower">
+              <h1><span class="exerciseh">36</span>hrs</h1>
+              <p>
+                Last <span class="format">Week</span> -
+                <span class="exercisep">36</span>hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="griditem social">
+          <div class="imgdiv socialdiv">
+            <img
+              class="img"
+              src="./images/icon-social.svg"
+              alt="Illustration"
+            />
+          </div>
+          <div class="section">
+            <div class="sectiontop">
+              <strong>Social</strong>
+              <img src="./images/icon-ellipsis.svg" alt="navigation" />
+            </div>
+            <div class="lower">
+              <h1><span class="socialh">36</span>hrs</h1>
+              <p>
+                Last <span class="format">Week</span> -
+                <span class="socialp">0</span>hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="griditem selfcare">
+          <div class="imgdiv selfcarediv">
+            <img
+              class="img"
+              src="./images/icon-self-care.svg"
+              alt="Illustration"
+            />
+          </div>
+          <div class="section">
+            <div class="sectiontop">
+              <strong>Self Care</strong>
+              <img src="./images/icon-ellipsis.svg" alt="navigation" />
+            </div>
+            <div class="lower">
+              <h1><span class="selfcareh">36</span>hrs</h1>
+              <p>
+                Last <span class="format">Week</span> -
+                <span class="selfcarep">0</span>hrs
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/chimi-rinzin-20178a291/"
+          >Chimi Rinzin</a
+        >.
+      </div>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
